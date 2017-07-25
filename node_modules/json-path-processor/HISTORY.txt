@@ -1,0 +1,62 @@
+HISTORY
+=======
+
+v0.2.2 https://github.com/zordius/json-path-processor/releases/tag/v0.2.2
+   * 0e7bfa9679 properly delete an item from an array
+
+v0.2.1 https://github.com/zordius/json-path-processor/releases/tag/v0.2.1
+   * cc449ad7c7 now can .set() false or 0
+
+v0.2.0 https://github.com/zordius/json-path-processor/releases/tag/v0.2.0
+   * 9fc81c83d5 remove lodash depdency, lodash related method behavior changed
+   * require es5 environment or polyfill
+
+v0.1.2 https://github.com/zordius/json-path-processor/releases/tag/v0.1.2
+   * 8def5ba633 fix bug when .set() on null or undefined
+
+v0.1.1 https://github.com/zordius/json-path-processor/tree/v0.1.1
+   * b225837a20 now can accept empty path when .each() or .forIn()
+   * 66d52ac27f update dependency
+
+v0.1.0 https://github.com/zordius/json-path-processor/tree/v0.1.0
+   * c1c75f8910 support fast return by jpp(data, path)
+   * 15d2870a37 support .filter()
+
+v0.0.9 https://github.com/zordius/json-path-processor/tree/v0.0.9
+   * 684b4d57d2 prevent error when input is number or null or undefined then .each(), .forIn()
+
+v0.0.8 https://github.com/zordius/json-path-processor/tree/v0.0.8
+   * bc9c9c4193 prevent error when input is number or null or undefined
+
+v0.0.7 https://github.com/zordius/json-path-processor/tree/v0.0.7
+   * b5279ac1ef support .range()
+   * f1ce698e8f support .find()
+   * f95951b2f3 support .findLast()
+
+v0.0.6 https://github.com/zordius/json-path-processor/tree/v0.0.6
+   * a2ae06865d support .concat()
+   * 71808a1e4a keep original value when no return value in .each() or forIn() callback
+
+v0.0.5 https://github.com/zordius/json-path-processor/tree/v0.0.5
+   * a525baf955 support failback callback for .each() and .forIn()
+   * 0a247e9912 support .cp()
+   * 56d67ec215 change .cp() to .copy()
+
+v0.0.4 https://github.com/zordius/json-path-processor/tree/v0.0.4
+   * 15ae81c32f support .del() and .move()
+
+v0.0.3 https://github.com/zordius/json-path-processor/tree/v0.0.3
+   * ca8236a11b now .set() callback is exception safe. and, can set default value when exception happened
+
+v0.0.2 https://github.com/zordius/json-path-processor/tree/v0.0.2
+   * d94d14f0ba support create object when path not found in .set()
+   * 3966db0d27 support set('$', ...) on self
+   * 3b4c8fac17 update dependency
+
+v0.0.1 https://github.com/zordius/json-path-processor/tree/v0.0.1
+   * initial version
+   * 14d4667518 support .set(path, callback)
+   * 847bd235a4 travis migration
+   * 2397d0f1d3 support each()
+   * e31a548dc2 support forIn()
+   * 3bda7631ca change interfaces of each and forIn for performance

@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - '0.10'
+  - '0.11'
+  - '0.12'
+  - 'iojs'
+script:
+  - npm test
+  - ./travis.sh
+sudo: false
+env:
+  global:
+    - secure: F5vq9JW3OpyWLrF0fJTWeEXxSD0VGIFtiH/ZHxsBGZ37Onc4VlCIFfe8VANFK83cMufu/F+uOqy+zzg5x5/mxKgQgBmiUaDa4cxv480zFFpBkssZTZHtpwDvvZWm1ZmcVytggkeHlA+raWIQp1LKlxuxY4bKtkdQWOrDdYcYAq8=
+    - secure: m0eXXQEOu1VOUu3BLT6+KWYU5wfRTZVBjRJ+xx9a6evfAqvtcJm+m1yUtZpkCKygQa971SMqx5w7uxkQ1CmlU0kgdunK5a+fnXJymbSyvHp8vcQWDaUuGtUToIkZc8aFAatuujusK24Ql4FvBkBBxV5a9nViy2AaB4nwTlGNo9Y=
+    - secure: UDU/LblbImZPZTrCInIBPMlfktF9Gn+8Pl/LtNQkuOrjEPIfZ2PtvbFJGvvMRhqD76yWGl2wtf13hCMZxQoZpeEs1ueK63rVCHgAa5RJJbjEkrfWgv9w4I4ViJFgOqr2i086sMkTnqZ5n70z65CWwMyHw/cQPWySdINKMdfLuVY=
+    - secure: AOtgdWV+jik7F5cazasxM7ot9nQoLW2TzgNKqNZOuJgh1WzjyO6zmokwTeZGysCL2s939rX+2PoJLXJMZQUNO4y6V5eKkboA8pE+8DwF0s2Wtn7/fyHFRqKYOt9Yry/QdU2sxEEnKILK7dHeIPODInhOMeK6hyUIxhThsBnrpv8=
+    - secure: hE06q5+L2JDQfUarOi+WChGJJhVWXTaq0LvtA8Mv287ZrOeGThoX2oCFcvNXo0ohZJSSlbAR5xb8sRK+RpECy4fD2TUNzxd0V40b+8tvSzMLFu6Fu0JaynqAOyChCNFMp5XjtMNlwZ41KXMCIz1mtxnsdxZV3luCFQ41uq7qkqk=
