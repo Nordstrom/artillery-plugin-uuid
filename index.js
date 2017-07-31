@@ -1,3 +1,3 @@
-'use strict';
+'use strict'
 
-module.exports = require(__dirname + '/lib/uuid');
+module.exports = require(`${__dirname}/lib/uuid`)

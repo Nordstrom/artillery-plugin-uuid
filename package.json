@@ -15,13 +15,21 @@
     "artillery-plugin"
   ],
   "author": "Danno Mayer",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/Nordstrom/artillery-plugin-uuid/issues"
   },
   "homepage": "https://github.com/Nordstrom/artillery-plugin-uuid#readme",
   "dependencies": {
+    "eslint": "^4.3.0",
     "json-path-processor": "^0.2.3",
     "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0"
   }
 }
