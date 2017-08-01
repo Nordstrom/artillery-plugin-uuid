@@ -1,6 +1,6 @@
 {
   "name": "artillery-plugin-uuid",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "generate uuid to use in artillery script",
   "main": "index.js",
   "scripts": {
